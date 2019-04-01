@@ -2,14 +2,15 @@
   "name": "asms-app",
   "version": "1.0.0",
   "description": "Student Project",
-  "main": "main.js",
+  "main": "serve.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "serve -s ./"
+    "build": "node serve.js"
   },
   "author": "Mohammed Odunayo <factman60@gmail.com>",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.16.4",
     "serve": "^10.1.2"
   }
 }
