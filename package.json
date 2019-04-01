@@ -5,7 +5,8 @@
   "main": "serve.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build": "node serve.js"
+    "build": "echo build completed.",
+    "start": "node serve.js"
   },
   "author": "Mohammed Odunayo <factman60@gmail.com>",
   "license": "ISC",
